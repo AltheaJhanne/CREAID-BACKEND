@@ -11,6 +11,4 @@ new Elysia({
   .use(app)
   .listen(port);
 
-console.log(
-  `API running at http://localhost:${port}/api`
-);
+console.log(`API running on port ${port}`);
