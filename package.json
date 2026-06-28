@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "tsx watch src/dev.js",
-    "start": "tsx src/dev.js"
+    "start": "node --import tsx src/dev.js"
   },
   "dependencies": {
     "@elysiajs/cors": "^1.1.1",
