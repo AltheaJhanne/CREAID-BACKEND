@@ -2,6 +2,9 @@
   "name": "dentconnect-api",
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "tsx watch src/dev.js",
     "start": "tsx src/dev.js"
@@ -13,11 +16,11 @@
     "date-fns": "^4.4.0",
     "dotenv": "^16.4.5",
     "elysia": "^1.1.25",
-    "nodemailer": "^8.0.10"
+    "nodemailer": "^8.0.10",
+    "tsx": "^4.19.2"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",
-    "tsx": "^4.19.2",
     "typescript": "^5.6.3"
   }
 }
